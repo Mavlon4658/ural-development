@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    @apply min-h-screen w-full overflow-hidden
+}
+
+.container {
+    @apply max-w-[calc(100%_-_52px)] sm:max-w-[616px] md:max-w-[668px] lg:max-w-[720px] xl:max-w-[958px] 2xl:max-w-[1436px] mx-auto;
+}
+
+.main-btn {
+    transition: .3s ease all;
+    @apply border border-dark-grey flex items-center justify-center text-center h-[50px] text-dark-grey text-xl leading-[100%] font-oswald font-medium relative z-[1];
+}
+
+.main-btn::before {
+    transition: .3s ease all;
+    @apply content-[''] absolute left-0 top-0 w-0 h-full bg-grey-1 z-[-1]
+}
+
+.main-btn:hover::before {
+    @apply w-full
+}
+
+.main-btn.light {
+    @apply text-[#FFF] border border-[#FFF]
+}
+
+.main-btn.light:hover {
+    @apply text-dark-grey;
+}
+
+.home-child-swp .swiper-slide:not(.swiper-slide-active) {
+    @apply opacity-50
+}
+
+.home-child-swp .swiper-slide:not(.swiper-slide-active) {
+    @apply opacity-50
+}
+
+.tab_item {
+    display: none;
+}
+
+@keyframes tabActive {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.tab_item.active {
+    display: block;
+    animation: tabActive .2s linear 1;
+}
+
+@keyframes tabEndActive {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.tab_item.end-active {
+    display: block;
+    animation: tabEndActive .2s linear 1;
+}
+
+.design .tab_head button.active {
+    @apply bg-[#FFFFFF] relative
+}
+
+.design .tab_head button.active::before {
+    @apply content-[''] bg-[#FFFFFF] absolute -bottom-[1px] left-0 w-full h-1
+}
+
+.design .swiper .swiper-wrapper .swiper-slide-active img {
+    @apply xl:opacity-100
+}
+
+.design .swiper .swiper-wrapper .swiper-slide-active h3 {
+    @apply text-[#FFFFFF] [text-shadow:_0_0_10px_#080808]
+}
+
+.form-inp {
+    transition: .2s ease all;
+    @apply outline-none placeholder:text-grey-3 font-rubik text-sm leading-[122.7%] px-5 pt-[18px] pb-[10px] border-b border-grey-3 w-full bg-transparent hover:bg-grey-1 text-black hover:placeholder:text-black hover:border-black
+}

@@ -1,1 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РАЗРАБОТКИ УРАЛА</title>
 
+    <!-- Sergue UI font -->
+    <link rel="stylesheet" href="./fonts/SegoeUI/stylesheet.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="bg-white text-[#000000]">
+    
+    <div class="wrapper font-sergue-ui font-light">
+
+        <!-- Header -->
+        <header class="absolute top-0 left-0 w-full z-[3] lg:bg-[rgba(8,8,8,0.3)]">
+            <div class="max-w-[1920px] h-[146px] lg:h-[100px] 2xl:h-[140px] mx-auto flex items-stretch justify-center lg:justify-between">
+                <div class="flex items-center gap-[34px] xl:gap-[31px] 2xl:gap-[50px]">
+                    <button class="w-auto lg:w-[118px] xl:w-[130px] 2xl:w-[192px] flex items-center justify-center gap-[10px] lg:gap-2 h-full">
+                        <img src="./images/bars.svg" alt="">
+                        <span class="font-oswald text-2xl text-lightgrey font-medium uppercase lg:hidden 2xl:block">Меню</span>
+                    </button>
+                    <a href="/" class="hidden lg:flex">
+                        <img src="./images/logo.svg" alt="" class="h-[18px] 2xl:h-[22px]">
+                    </a>
+                </div>
+                <div class="hidden lg:flex items-center gap-[32px] xl:gap-[31px] 2xl:gap-[50px]">
+                    <ul class="flex items-center gap-[25px] 2xl:gap-[19px]">
+                        <li>
+                            <a href="#">
+                                <img src="./images/link-icon-1.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/link-icon-2.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/link-icon-3.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="w-[118px] xl:w-[100px] 2xl:w-[140px] h-full flex items-center justify-center">
+                        <a href="#">
+                            <img src="./images/link-icon-4.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <main>
+
+            <!-- Home -->
+            <section class="bg-dark-grey home relative">
+                <div class="max-w-[1920px] mx-auto relative">
+                    <button class="swp-prev absolute z-[2] w-[58px] xl:w-[64px] 2xl:w-[69px] h-[58px] xl:h-[64px] 2xl:h-[69px] rounded-full flex items-center justify-center bg-[rgba(8,8,8,0.3)] top-[472px] md:top-[521px] lg:top-[325px] xl:top-[418px] 2xl:top-[573.5px] translate-x-[calc(-100%_-_5px)] md:translate-x-0 left-1/2 md:left-[50px] 2xl:left-[100px]">
+                        <img src="./images/chevron-left.svg" alt="">
+                    </button>
+                    <button class="swp-next absolute z-[2] w-[58px] xl:w-[64px] 2xl:w-[69px] h-[58px] xl:h-[64px] 2xl:h-[69px] rounded-full flex items-center justify-center bg-[rgba(8,8,8,0.3)] top-[472px] md:top-[521px] lg:top-[325px] xl:top-[418px] 2xl:top-[573.5px] translate-x-[calc(100%_+_10px)] md:translate-x-0 right-1/2 md:right-[50px] 2xl:right-[100px]">
+                        <img src="./images/chevron-right.svg" alt="">
+                    </button>
+                </div>
+                <div class="swiper home-swp">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide relative z-[1] h-[678px] md:h-[1024px] lg:h-[760px] xl:h-[800px] 2xl:h-[1076px] pt-[234px] md:pt-[396px] lg:pt-[199px] xl:pt-[100px] 2xl:pt-[140px]">
+                            <img src="./images/home-bg-1.png" alt="" class="absolute top-0 left-0 w-full h-full z-[-1] object-cover opacity-80">
+                            <div class="container h-full flex flex-col justify-start xl:justify-center items-center lg:items-start">
+                                <div class="md:bg-[rgba(8,8,8,0.3)] text-lightgrey md:py-[25px] xl:p-[25px] max-w-[538px] lg:max-w-full w-full xl:w-1/2 flex items-center xl:items-start flex-col gap-[10px] md:gap-[15px] xl:gap-5 text-center xl:text-start">
+                                    <h2 class="text-[28px] md:text-[35px] lg:text-[46px] xl:text-[51px] 2xl:text-[56px] uppercase font-oswald font-bold leading-[125%] tracking-[.8px]">архитектурное <br> проектирование</h2>
+                                    <div class="w-[150px] h-[6px] bg-yellow"></div>
+                                    <h3 class="font-semibold text-lg md:text-xl lg:text-[22px] 2xl:text-2xl leading-[150%] tracking-[.8px] uppercase">комплексная <br class="block lg:hidden xl:block"> разработка</h3>
+                                    <a href="#" class="main-btn light w-[256px] md:w-[298px] lg:w-[320px] xl:w-[292px] 2xl:w-[320px] !h-[49px] md:!h-[53px] xl:!h-[62px] 2xl:!h-[72px] !border-2 mt-[10px] lg:mt-0">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide relative z-[1] h-[678px] md:h-[1024px] lg:h-[760px] xl:h-[800px] 2xl:h-[1076px] pt-[234px] md:pt-[396px] lg:pt-[199px] xl:pt-[100px] 2xl:pt-[140px]">
+                            <img src="./images/home-bg-1.png" alt="" class="absolute top-0 left-0 w-full h-full z-[-1] object-cover opacity-80">
+                            <div class="container h-full flex flex-col justify-start xl:justify-center items-center lg:items-start">
+                                <div class="md:bg-[rgba(8,8,8,0.3)] text-lightgrey md:py-[25px] xl:p-[25px] max-w-[538px] lg:max-w-full w-full xl:w-1/2 flex items-center xl:items-start flex-col gap-[10px] md:gap-[15px] xl:gap-5 text-center xl:text-start">
+                                    <h2 class="text-[28px] md:text-[35px] lg:text-[46px] xl:text-[51px] 2xl:text-[56px] uppercase font-oswald font-bold leading-[125%] tracking-[.8px]">Дизайн <br> интерьеров</h2>
+                                    <div class="w-[150px] h-[6px] bg-yellow"></div>
+                                    <h3 class="font-semibold text-lg md:text-xl lg:text-[22px] 2xl:text-2xl leading-[150%] tracking-[.8px] uppercase">комплексная <br class="block lg:hidden xl:block"> разработка</h3>
+                                    <a href="#" class="main-btn light w-[256px] md:w-[298px] lg:w-[320px] xl:w-[292px] 2xl:w-[320px] !h-[49px] md:!h-[53px] xl:!h-[62px] 2xl:!h-[72px] !border-2 mt-[10px] lg:mt-0">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide relative z-[1] h-[678px] md:h-[1024px] lg:h-[760px] xl:h-[800px] 2xl:h-[1076px] pt-[234px] md:pt-[396px] lg:pt-[199px] xl:pt-[100px] 2xl:pt-[140px]">
+                            <img src="./images/home-bg-1.png" alt="" class="absolute top-0 left-0 w-full h-full z-[-1] object-cover opacity-80">
+                            <div class="container h-full flex flex-col justify-start xl:justify-center items-center lg:items-start">
+                                <div class="md:bg-[rgba(8,8,8,0.3)] text-lightgrey md:py-[25px] xl:p-[25px] max-w-[538px] lg:max-w-full w-full xl:w-1/2 flex items-center xl:items-start flex-col gap-[10px] md:gap-[15px] xl:gap-5 text-center xl:text-start">
+                                    <h2 class="text-[28px] md:text-[35px] lg:text-[46px] xl:text-[51px] 2xl:text-[56px] uppercase font-oswald font-bold leading-[125%] tracking-[.8px]">Архитектурное <br> проектирование</h2>
+                                    <div class="w-[150px] h-[6px] bg-yellow"></div>
+                                    <h3 class="font-semibold text-lg md:text-xl lg:text-[22px] 2xl:text-2xl leading-[150%] tracking-[.8px] uppercase">комплексная <br class="block lg:hidden xl:block"> разработка</h3>
+                                    <a href="#" class="main-btn light w-[256px] md:w-[298px] lg:w-[320px] xl:w-[292px] 2xl:w-[320px] !h-[49px] md:!h-[53px] xl:!h-[62px] 2xl:!h-[72px] !border-2 mt-[10px] lg:mt-0">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide relative z-[1] h-[678px] md:h-[1024px] lg:h-[760px] xl:h-[800px] 2xl:h-[1076px] pt-[234px] md:pt-[396px] lg:pt-[199px] xl:pt-[100px] 2xl:pt-[140px]">
+                            <img src="./images/home-bg-1.png" alt="" class="absolute top-0 left-0 w-full h-full z-[-1] object-cover opacity-80">
+                            <div class="container h-full flex flex-col justify-start xl:justify-center items-center lg:items-start">
+                                <div class="md:bg-[rgba(8,8,8,0.3)] text-lightgrey md:py-[25px] xl:p-[25px] max-w-[538px] lg:max-w-full w-full xl:w-1/2 flex items-center xl:items-start flex-col gap-[10px] md:gap-[15px] xl:gap-5 text-center xl:text-start">
+                                    <h2 class="text-[28px] md:text-[35px] lg:text-[46px] xl:text-[51px] 2xl:text-[56px] uppercase font-oswald font-bold leading-[125%] tracking-[.8px]">Дизайн <br> интерьеров</h2>
+                                    <div class="w-[150px] h-[6px] bg-yellow"></div>
+                                    <h3 class="font-semibold text-lg md:text-xl lg:text-[22px] 2xl:text-2xl leading-[150%] tracking-[.8px] uppercase">комплексная <br class="block lg:hidden xl:block"> разработка</h3>
+                                    <a href="#" class="main-btn light w-[256px] md:w-[298px] lg:w-[320px] xl:w-[292px] 2xl:w-[320px] !h-[49px] md:!h-[53px] xl:!h-[62px] 2xl:!h-[72px] !border-2 mt-[10px] lg:mt-0">Узнать больше</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-child-swp overflow-hidden w-[115px] md:w-[235px] lg:w-[349px] xl:w-[361px] 2xl:w-[438px] absolute right-0 bottom-0 px-[25px] md:px-[65px] lg:px-10 py-[15px] md:py-5 lg:py-[35px] xl:p-10 2xl:p-[50px] bg-[rgba(8,8,8,0.3)] z-[2] text-[#FFFFFF]">
+                    <div class="swiper max-w-[19px] lg:max-w-[120px] xl:max-w-[127px] 2xl:max-w-[154px] ml-0 overflow-visible">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide flex flex-col gap-[5px] xl:gap-[15px]">
+                                <h3 class="text-xl lg:text-base xl:text-[17px] 2xl:text-xl font-oswald font-medium">01</h3>
+                                <div class="hidden lg:block w-full h-[1px] bg-[#FFFFFF]"></div>
+                                <p class="hidden lg:block text-balse xl:text-[17px] 2xl:text-xl font-normal leading-[150%]">Архитектурное проектирование</p>
+                            </div>
+                            <div class="swiper-slide flex flex-col gap-[5px] xl:gap-[15px]">
+                                <h3 class="text-xl lg:text-base xl:text-[17px] 2xl:text-xl font-oswald font-medium">02</h3>
+                                <div class="hidden lg:block w-full h-[1px] bg-[#FFFFFF]"></div>
+                                <p class="hidden lg:block text-balse xl:text-[17px] 2xl:text-xl font-normal leading-[150%]">Архитектурное проектирование</p>
+                            </div>
+                            <div class="swiper-slide flex flex-col gap-[5px] xl:gap-[15px]">
+                                <h3 class="text-xl lg:text-base xl:text-[17px] 2xl:text-xl font-oswald font-medium">03</h3>
+                                <div class="hidden lg:block w-full h-[1px] bg-[#FFFFFF]"></div>
+                                <p class="hidden lg:block text-balse xl:text-[17px] 2xl:text-xl font-normal leading-[150%]">Архитектурное проектирование</p>
+                            </div>
+                            <div class="swiper-slide flex flex-col gap-[5px] xl:gap-[15px]">
+                                <h3 class="text-xl lg:text-base xl:text-[17px] 2xl:text-xl font-oswald font-medium">04</h3>
+                                <div class="hidden lg:block w-full h-[1px] bg-[#FFFFFF]"></div>
+                                <p class="hidden lg:block text-balse xl:text-[17px] 2xl:text-xl font-normal leading-[150%]">Архитектурное проектирование</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Home end -->
+
+            <!-- Services -->
+            <section class="services py-[70px] md:py-[75px] lg:py-20 xl:py-[85px] 2xl:py-[100px]">
+                <div class="container flex flex-col md:flex-row items-center md:items-stretch gap-[30px] 2xl:gap-12 text-center md:text-start">
+                    <h2 class="w-full md:w-1/2 text-black text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] uppercase font-oswald font-bold leading-[125%] tracking-[.8px]">Услуги, <br class="xl:hidden"> которые <br class="hidden xl:block"> мы предоставляем</h2>
+                    <div class="w-[1px] h-auto bg-yellow shrink-0 hidden md:block"></div>
+                    <p class="w-full md:w-1/2 flex items-center text-sm md:text-[15px] lg:text-base xl:text-lg leading-[150%] text-[#000000]">Мы предоставляем весь комплекс услуг по проектированию, ценообразованию, строительству и дизайну интерьера. В зависимости от ваших потребностей мы подберем индивидуальное решение.</p>
+                </div>
+            </section>
+            <!-- Services end -->
+
+            <!-- Design -->
+            <section class="design tab">
+                <div class="bg-lightgrey border-y border-grey-2 overflow-x-scroll md:overflow-x-visible px-[26px] md:px-0">
+                    <div class="flex items-stretch w-[656px] md:w-auto max-w-[656px] md:max-w-[668px] lg:max-w-[720px] xl:max-w-[958px] 2xl:max-w-[1536px] mx-auto tab_head">
+                        <button class="active w-full flex items-center justify-center text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg text-[#4A4A4A] py-[15px] lg:py-[25px] xl:py-[46.5px] 2xl:py-[60px] px-5 xl:px-[5px] 2xl:px-10 border-x border-grey-2">Индивидуальное <br> проектирование</button>
+                        <button class="w-full flex items-center justify-center text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg text-[#4A4A4A] py-[15px] lg:py-[25px] xl:py-[46.5px] 2xl:py-[60px] px-5 xl:px-[5px] 2xl:px-10 border-r border-grey-2">Поселки и кварталы</button>
+                        <button class="w-full flex items-center justify-center text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg text-[#4A4A4A] py-[15px] lg:py-[25px] xl:py-[46.5px] 2xl:py-[60px] px-5 xl:px-[5px] 2xl:px-10 border-r border-grey-2">Интерьерный и <br> ландшафтный дизайн</button>
+                        <button class="w-full flex items-center justify-center text-center text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg text-[#4A4A4A] py-[15px] lg:py-[25px] xl:py-[46.5px] 2xl:py-[60px] px-5 xl:px-[5px] 2xl:px-10 border-r border-grey-2">Полный цикл <br> строительства</button>
+                    </div>
+                </div>
+                <div class="max-w-[calc(100%_-_52px)] md:max-w-[720px] xl:max-w-[958px] 2xl:max-w-[1536px] mx-auto tab_body">
+                    <div class="tab_item active">
+                        <div class="flex flex-col xl:flex-row items-center xl:items-stretch">
+                            <div class="w-full xl:w-1/2 py-[70px] md:py-[75px] lg:py-20 xl:py-0 2xl:pl-[50px] xl:pr-[100px] flex flex-col justify-center items-center xl:items-start xl:border-r border-grey-2 text-center xl:text-start">
+                                <h3 class="text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-bold font-oswald leading-[125%] tracking-[.8px] uppercase">Проектирование <br> каменных домов</h3>
+                                <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                                <p class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg leading-[150%]">
+                                    Проектирование современных каркасных домов <br>
+                                    Одна из самых перспективных технологий, которая дает возможность разрабатывать любые смелые решения и формы. За счет свободного применения отделочных (фасадных и интерьерных) материалов реализуются различные стили. <br>
+                                    Конструктив разрабатывается в специальных инженерно-технических программах, которые позволяют оптимизировать раскрой и сэкономить на материале. Современные материалы и решения позволяют придать дому надежность и долговечность. Данная технология постоянно развивается и совершенствуется, и дает возможность автоматизировать процессы, снижая срок производства домокомплектов и строительства.
+                                </p>
+                            </div>
+                            <div class="w-[calc(100vw_-_52px)] md:w-[calc(100vw_-_54px)] lg:w-[calc(100vw_-_128px)] xl:w-1/2 relative h-[250px] md:h-[350px] lg:h-[413px] xl:h-[760px] 2xl:h-[915px]">
+                                <div class="absolute 2xl:static w-full xl:w-[50vw] 2xl:w-auto h-full">
+                                    <div class="swiper xl:pl-[5px] h-full overflow-visible xl:overflow-hidden">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab_item">
+                        <div class="flex flex-col xl:flex-row items-center xl:items-stretch">
+                            <div class="w-full xl:w-1/2 py-[70px] md:py-[75px] lg:py-20 xl:py-0 2xl:pl-[50px] xl:pr-[100px] flex flex-col justify-center items-center xl:items-start xl:border-r border-grey-2 text-center xl:text-start">
+                                <h3 class="text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-bold font-oswald leading-[125%] tracking-[.8px] uppercase">Проектирование <br> каменных домов 2</h3>
+                                <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                                <p class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg leading-[150%]">
+                                    Проектирование современных каркасных домов <br>
+                                    Одна из самых перспективных технологий, которая дает возможность разрабатывать любые смелые решения и формы. За счет свободного применения отделочных (фасадных и интерьерных) материалов реализуются различные стили. <br>
+                                    Конструктив разрабатывается в специальных инженерно-технических программах, которые позволяют оптимизировать раскрой и сэкономить на материале. Современные материалы и решения позволяют придать дому надежность и долговечность. Данная технология постоянно развивается и совершенствуется, и дает возможность автоматизировать процессы, снижая срок производства домокомплектов и строительства.
+                                </p>
+                            </div>
+                            <div class="w-[calc(100vw_-_52px)] md:w-[calc(100vw_-_54px)] lg:w-[calc(100vw_-_128px)] xl:w-1/2 relative h-[250px] md:h-[350px] lg:h-[413px] xl:h-[760px] 2xl:h-[915px]">
+                                <div class="absolute 2xl:static w-full xl:w-[50vw] 2xl:w-auto h-full">
+                                    <div class="swiper xl:pl-[5px] h-full overflow-visible xl:overflow-hidden">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab_item">
+                        <div class="flex flex-col xl:flex-row items-center xl:items-stretch">
+                            <div class="w-full xl:w-1/2 py-[70px] md:py-[75px] lg:py-20 xl:py-0 2xl:pl-[50px] xl:pr-[100px] flex flex-col justify-center items-center xl:items-start xl:border-r border-grey-2 text-center xl:text-start">
+                                <h3 class="text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-bold font-oswald leading-[125%] tracking-[.8px] uppercase">Проектирование <br> каменных домов 3</h3>
+                                <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                                <p class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg leading-[150%]">
+                                    Проектирование современных каркасных домов <br>
+                                    Одна из самых перспективных технологий, которая дает возможность разрабатывать любые смелые решения и формы. За счет свободного применения отделочных (фасадных и интерьерных) материалов реализуются различные стили. <br>
+                                    Конструктив разрабатывается в специальных инженерно-технических программах, которые позволяют оптимизировать раскрой и сэкономить на материале. Современные материалы и решения позволяют придать дому надежность и долговечность. Данная технология постоянно развивается и совершенствуется, и дает возможность автоматизировать процессы, снижая срок производства домокомплектов и строительства.
+                                </p>
+                            </div>
+                            <div class="w-[calc(100vw_-_52px)] md:w-[calc(100vw_-_54px)] lg:w-[calc(100vw_-_128px)] xl:w-1/2 relative h-[250px] md:h-[350px] lg:h-[413px] xl:h-[760px] 2xl:h-[915px]">
+                                <div class="absolute 2xl:static w-full xl:w-[50vw] 2xl:w-auto h-full">
+                                    <div class="swiper xl:pl-[5px] h-full overflow-visible xl:overflow-hidden">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab_item">
+                        <div class="flex flex-col xl:flex-row items-center xl:items-stretch">
+                            <div class="w-full xl:w-1/2 py-[70px] md:py-[75px] lg:py-20 xl:py-0 2xl:pl-[50px] xl:pr-[100px] flex flex-col justify-center items-center xl:items-start xl:border-r border-grey-2 text-center xl:text-start">
+                                <h3 class="text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-bold font-oswald leading-[125%] tracking-[.8px] uppercase">Проектирование <br> каменных домов 4</h3>
+                                <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                                <p class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-lg leading-[150%]">
+                                    Проектирование современных каркасных домов <br>
+                                    Одна из самых перспективных технологий, которая дает возможность разрабатывать любые смелые решения и формы. За счет свободного применения отделочных (фасадных и интерьерных) материалов реализуются различные стили. <br>
+                                    Конструктив разрабатывается в специальных инженерно-технических программах, которые позволяют оптимизировать раскрой и сэкономить на материале. Современные материалы и решения позволяют придать дому надежность и долговечность. Данная технология постоянно развивается и совершенствуется, и дает возможность автоматизировать процессы, снижая срок производства домокомплектов и строительства.
+                                </p>
+                            </div>
+                            <div class="w-[calc(100vw_-_52px)] md:w-[calc(100vw_-_54px)] lg:w-[calc(100vw_-_128px)] xl:w-1/2 relative h-[250px] md:h-[350px] lg:h-[413px] xl:h-[760px] 2xl:h-[915px]">
+                                <div class="absolute 2xl:static w-full xl:w-[50vw] 2xl:w-auto h-full">
+                                    <div class="swiper xl:pl-[5px] h-full overflow-visible xl:overflow-hidden">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-1.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-2.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">KARKAS</h3>
+                                            </div>
+                                            <div class="swiper-slide relative z-[1] bg-[#000] xl:bg-transparent h-[250px] md:h-[350px] lg:h-[413px] xl:h-[292px] 2xl:h-[360px] flex items-center justify-center text-center">
+                                                <img src="./images/design-card-3.png" alt="" class="absolute left-0 top-0 w-full h-full z-[-1] object-cover opacity-80 xl:opacity-100 2xl:opacity-30">
+                                                <h3 class="uppercase text-[24px] md:text-[26px] lg:text-[32px] font-oswald font-normal tracking-[.8px] text-[#FFFFFF] 2xl:text-[#000000] [text-shadow:_0_0_10px_#080808] 2xl:[text-shadow:_0_0_10px_rgba(255_255_255_/_0.8)]">STONE</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Design end -->
+
+            <!-- Contact -->
+            <section class="contact border-y border-grey-2">
+                <div class="container flex items-stretch">
+                    <div class="w-1/2 border-r border-grey-2 flex flex-col justify-center pr-[102px]">
+                        <h2 class="text-dark-grey text-[36px] font-medium font-oswald leading-[125%] tracking-[0.8px] uppercase mb-[25px]">хотите построить красивый и качественный дом?</h2>
+                        <p class="text-black text-xl leading-[122%]">Сделайте первый шаг к вашей мечте, свяжитесь с нашим специалистом или оставьте ваши координаты для обратной связи.</p>
+                    </div>
+                    <div class="w-1/2 flex items-center py-[127px] pl-[112px]">
+                        <div class="max-w-[541px] w-full flex flex-col gap-[25px]">
+                            <input type="text" placeholder="Ваше имя" class="form-inp">
+                            <input type="tel" placeholder="+7 (___) ___ __ __" class="form-inp">
+                            <button class="main-btn">Обсудить задачу с экспертом</button>
+                            <p class="text-grey-3 text-sm leading-[122.7%] max-w-[391px] w-full">Нажимая кнопку, вы автоматически соглашаетесь с <a href="#" class="inline underline">политикой конфиденциальности</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact end -->
+
+            <section class="border-b border-grey-2">
+                <div class="container flex items-stretch">
+                    <div class="w-1/2 flex items-center py-[100px] border-r border-grey-2">
+                        <img src="./images/service-card-1.png" alt="" class="w-[437px] h-[655px] object-cover">
+                    </div>
+                    <div class="w-1/2 flex items-center pl-[112px] py-[100px] overflow-hidden">
+                        <div class="w-full max-w-[542px]">
+                            <h2 class="text-[46px] font-oswald font-bold leading-[54px] tracking-[0.8px] uppercase">Сферы нашего <br> обслуживания</h2>
+                            <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                            <h3 class="text-[26px] leading-[150%] font-bold uppercase mb-[10px]">частные объекты</h3>
+                            <p class="text-lg leading-[150%] text-[#000] mb-[70px]">Прародителем текста-рыбы является известный "Lorem Ipsum" — латинский текст, ноги которого растут аж из 45 года до нашей эры. Сервисов по созданию случайного текста на основе Lorem Ipsum </p>
+                            <ul class="flex gap-[10px]">
+                                <li class="w-full text-center text-[32px] font-oswald leading-[125%] tracking-[.8px] font-normal text-dark-grey relative">
+                                    <span>01</span>
+                                    <img src="./images/long-arrow.svg" alt="" class="absolute right-0 -bottom-[3px] translate-y-full min-w-[286px]">
+                                </li>
+                                <li class="w-full text-center text-[32px] font-oswald leading-[125%] tracking-[.8px] font-normal text-grey-3">02</li>
+                                <li class="w-full text-center text-[32px] font-oswald leading-[125%] tracking-[.8px] font-normal text-grey-3">03</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="relative z-[1] border-b border-grey-2">
+                <img src="./images/team-card.png" alt="" class="absolute z-[-1] left-0 top-0 h-[800px] w-full object-cover">
+                <div class="container">
+                    <div class="w-1/2 relative z-[1] border-r border-grey-2 pt-[261px] pb-[460px]">
+                        <div class="absolute w-screen h-full bg-white opacity-90 z-[-1] top-0 right-0"></div>
+                        <div class="max-w-[468px]">
+                            <h2 class="text-[46px] font-bold font-oswald leading-[125%] tracking-[0.8px] uppercase">главное</h2>
+                            <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                            <p class="text-lg leading-[150%] text-black mb-[60px]">У нас высокопрофессиональная команда архитекторов, дизайнеров, смежников</p>
+                            <a href="#" class="main-btn">Вся команда</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="projects">
+                <div class="border-b border-grey-2">
+                    <div class="container flex items-start">
+                        <div class="w-1/2 border-r border-grey-2 pr-[120px] py-[95.5px]">
+                            <h3 class="max-w-[519px] text-[46px] font-bold leading-[54px] font-oswald uppercase tracking-[0.8px]">Проектирование индивидуальных домов</h3>
+                            <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                            <p class="text-lg leading-[150%] text-[#000] mb-10">Прародителем текста-рыбы является известный "Lorem Ipsum" — латинский текст, ноги которого растут аж из 45 года до нашей эры. Сервисов по созданию случайного текста на основе Lorem Ipsum великое множество, однако все они имеют один существенный недостаток: их "рыба текст" подходит лишь для англоязычных ресурсов/проектов. Мы же, фактически, предлагаем Lorem Ipsum на русском языке — вы можете использовать полученный здесь контент абсолютно бесплатно и в любых целях, не запрещённых законодательством. Однако в случае, если сгенерированный здесь текст используется в коммерческом или публичном проекте, ссылка на наш сервис обязательна. </p>
+                            <a href="#" class="main-btn">Посмотреть проекты</a>
+                        </div>
+                        <div class="w-1/2 flex">
+                            <img src="./images/project-card-1.png" alt="" class="max-w-[959px] w-[50vw] h-[600px] shrink-0 object-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="border-b border-grey-2">
+                    <div class="container flex items-start flex-row-reverse">
+                        <div class="w-1/2 border-l border-grey-2 pl-[120px] py-[95.5px]">
+                            <h3 class="max-w-[519px] text-[46px] font-bold leading-[54px] font-oswald uppercase tracking-[0.8px]">Дизайн интерьера и ландшафта</h3>
+                            <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                            <p class="text-lg leading-[150%] text-[#000] mb-10">Прародителем текста-рыбы является известный "Lorem Ipsum" — латинский текст, ноги которого растут аж из 45 года до нашей эры. Сервисов по созданию случайного текста на основе Lorem Ipsum великое множество, однако все они имеют один существенный недостаток: их "рыба текст" подходит лишь для англоязычных ресурсов/проектов. Мы же, фактически, предлагаем Lorem Ipsum на русском языке — вы можете использовать полученный здесь контент абсолютно бесплатно и в любых целях, не запрещённых законодательством. Однако в случае, если сгенерированный здесь текст используется в коммерческом или публичном проекте, ссылка на наш сервис обязательна. </p>
+                            <a href="#" class="main-btn">Посмотреть проекты</a>
+                        </div>
+                        <div class="w-1/2 flex justify-end">
+                            <img src="./images/project-card-2.png" alt="" class="max-w-[959px] w-[50vw] h-[600px] shrink-0 object-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="border-b border-grey-2">
+                    <div class="container flex items-start">
+                        <div class="w-1/2 border-r border-grey-2 pr-[120px] py-[95.5px]">
+                            <h3 class="max-w-[519px] text-[46px] font-bold leading-[54px] font-oswald uppercase tracking-[0.8px]">Проектирование индивидуальных домов</h3>
+                            <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[30px]"></div>
+                            <p class="text-lg leading-[150%] text-[#000] mb-10">Прародителем текста-рыбы является известный "Lorem Ipsum" — латинский текст, ноги которого растут аж из 45 года до нашей эры. Сервисов по созданию случайного текста на основе Lorem Ipsum великое множество, однако все они имеют один существенный недостаток: их "рыба текст" подходит лишь для англоязычных ресурсов/проектов. Мы же, фактически, предлагаем Lorem Ipsum на русском языке — вы можете использовать полученный здесь контент абсолютно бесплатно и в любых целях, не запрещённых законодательством. Однако в случае, если сгенерированный здесь текст используется в коммерческом или публичном проекте, ссылка на наш сервис обязательна. </p>
+                            <a href="#" class="main-btn">Посмотреть проекты</a>
+                        </div>
+                        <div class="w-1/2 flex">
+                            <img src="./images/project-card-1.png" alt="" class="max-w-[959px] w-[50vw] h-[600px] shrink-0 object-cover">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Projects end -->
+
+            <!-- Contact -->
+            <section class="contact border-b border-grey-2 bg-lightgrey">
+                <div class="container flex items-stretch">
+                    <div class="w-1/2 border-r border-grey-2 flex flex-col justify-center pr-[102px]">
+                        <h2 class="text-dark-grey text-[36px] font-medium font-oswald leading-[125%] tracking-[0.8px] uppercase mb-[25px]">Понравился проект?</h2>
+                        <p class="text-black text-xl leading-[122%]">Сделайте первый шаг к вашей мечте, свяжитесь с нашим специалистом или оставьте ваши координаты для обратной связи.</p>
+                    </div>
+                    <div class="w-1/2 flex items-center py-[127px] pl-[112px]">
+                        <div class="max-w-[541px] w-full flex flex-col gap-[25px]">
+                            <input type="text" placeholder="Ваше имя" class="form-inp">
+                            <input type="tel" placeholder="+7 (___) ___ __ __" class="form-inp">
+                            <button class="main-btn">Обсудить задачу с экспертом</button>
+                            <p class="text-grey-3 text-sm leading-[122.7%] max-w-[391px] w-full">Нажимая кнопку, вы автоматически соглашаетесь с <a href="#" class="inline underline">политикой конфиденциальности</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact end -->
+
+            <!-- Location -->
+            <section class="location bg-[#201E23] pt-[120px] pb-[317px] overflow-hidden">
+                <div class="container flex items-start">
+                    <div class="w-[300px] relative z-[2]">
+                        <h2 class="text-[46px] font-oswald uppercase font-bold leading-[125%] tracking-[0.8px] text-lightgrey">Архитектура без границ</h2>
+                        <div class="w-[150px] h-[6px] bg-yellow mt-[10px] mb-[45px]"></div>
+                        <p class="text-grey-3 text-lg leading-[150%]">Проектирование, строительство частных домов, котеджей, бань и прочих объектов загородной недвижимости в Екатеринбурге и Свердловской области.</p>
+                    </div>
+                    <div class="relative z-[1] w-full flex pt-[100px] h-0">
+                        <img src="./images/map.png" alt="" class="w-screen max-w-[1370px] h-[531px] shrink-0 object-cover">
+                    </div>
+                </div>
+            </section>
+            <!-- Location end -->
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="border-y border-dark-grey bg-[#201E23]">
+            <div class="container flex items-stretch">
+                <div class="w-1/2 border-r border-dark-grey flex flex-col justify-center py-[100px] pr-[102px]">
+                    <div class="w-full flex items-center justify-between">
+                        <div class="mb-[45px]">
+                            <h2 class="text-lightgrey uppercase font-oswald text-[46px] font-bold leading-[125%] tracking-[0.8px]">контакты</h2>
+                            <div class="w-[150px] h-[6px] bg-yellow mt-[10px]"></div>
+                        </div>
+                        <a href="/">
+                            <img src="./images/logo.svg" alt="" class="h-[22px]">
+                        </a>
+                    </div>
+                    <div class="text-lg leading-[150%] text-grey-3">
+                        <div class="w-full flex items-center justify-between mb-[30px]">
+                            <p class="text-grey-4">620027 Екатеринбург, <br> ул. Азина, д. 22/4, оф. 1.37</p>
+                            <div class="flex flex-col">
+                                <a href="tel:+7 (343) 38-48-100">+7 (343) 38-48-100</a>
+                                <a href="tel:+7 (953) 822-30-44">+7 (953) 822-30-44</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start justify-between">
+                            <p>Время работы: ПН-ПТ 09:00 - 20:00 <br>СБ, ВС - выходной</p>
+                            <a href="mailto:info@r-ural.com" target="_blank">info@r-ural.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2 flex flex-col justify-center py-[100px] pl-[112px]">
+                    <div class="w-full max-w-[541px] flex flex-col gap-[25px]">
+                        <div class="w-full flex gap-[25px] text-lg leading-[27px] text-grey-3">
+                            <div class="w-full">
+                                <p class="text-[18px] leading-[27px]">Для заказчиков</p>
+                                <a href="mailto:info@r-ural.com" target="_blank" class="text-grey-4 font-medium">info@r-ural.com</a>
+                            </div>
+                            <div class="w-full">
+                                <p class="text-[18px] leading-[27px]">Стать партнером</p>
+                                <a href="mailto:info@r-ural.com" target="_blank" class="text-grey-4 font-medium">info@r-ural.com</a>
+                            </div>
+                        </div>
+                        <p class="text-grey-3 text-lg leading-[150%]">Проектирование, строительство частных домов, котеджей, бань и прочих объектов загородной недвижимости в Екатеринбурге и Свердловской области.</p>
+                        <ul class="flex items-start justify-end gap-5">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-1.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-2.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-3.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-4.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+    </div>
+
+
+    <!-- iMask JS -->
+    <script src="./js/imask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JS file -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
