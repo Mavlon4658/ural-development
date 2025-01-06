@@ -14,7 +14,7 @@
 
 .main-btn {
     transition: .3s ease all;
-    @apply border border-dark-grey flex items-center justify-center text-center h-[50px] text-dark-grey text-xl leading-[100%] font-oswald font-medium relative z-[1];
+    @apply border border-dark-grey flex items-center justify-center text-center h-[50px] text-dark-grey text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-xl leading-[100%] font-oswald font-medium relative z-[1];
 }
 
 .main-btn::before {
