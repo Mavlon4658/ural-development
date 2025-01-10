@@ -94,3 +94,7 @@
     transition: .2s ease all;
     @apply outline-none placeholder:text-grey-3 font-rubik text-sm leading-[122.7%] px-5 pt-[18px] pb-[10px] border-b border-grey-3 w-full bg-transparent hover:bg-grey-1 text-black hover:placeholder:text-black hover:border-black
 }
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РАЗРАБОТКИ УРАЛА</title>
+
+    <!-- Sergue UI font -->
+    <link rel="stylesheet" href="./fonts/SegoeUI/stylesheet.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Style css -->
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="bg-white text-[#000000]">
+    
+    <div class="wrapper font-sergue-ui font-light">
+
+        <!-- Header -->
+        <header class="absolute top-0 left-0 w-full z-[3] lg:bg-[rgba(8,8,8,0.3)]">
+            <div class="max-w-[1920px] h-[146px] lg:h-[100px] 2xl:h-[140px] mx-auto flex items-stretch justify-center lg:justify-between">
+                <div class="flex items-center gap-[34px] xl:gap-[31px] 2xl:gap-[50px]">
+                    <button class="w-auto lg:w-[118px] xl:w-[130px] 2xl:w-[192px] flex items-center justify-center gap-[10px] lg:gap-2 h-full">
+                        <img src="./images/bars.svg" alt="">
+                        <span class="font-oswald text-2xl text-lightgrey font-medium uppercase lg:hidden 2xl:block">Меню</span>
+                    </button>
+                    <a href="/" class="hidden lg:flex">
+                        <img src="./images/logo.svg" alt="" class="h-[18px] 2xl:h-[22px]">
+                    </a>
+                </div>
+                <div class="hidden lg:flex items-center gap-[32px] xl:gap-[31px] 2xl:gap-[50px]">
+                    <ul class="flex items-center gap-[25px] 2xl:gap-[19px]">
+                        <li>
+                            <a href="#">
+                                <img src="./images/link-icon-1.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/link-icon-2.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/link-icon-3.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="w-[118px] xl:w-[100px] 2xl:w-[140px] h-full flex items-center justify-center">
+                        <a href="#">
+                            <img src="./images/link-icon-4.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+
+        <main>
+
+            <!-- Village home -->
+            <section class="village relative z-[1] bg-[#4A4A4A]">
+                <img src="./images/village-home-card.png" alt="" class="absolute z-[-1] top-0 left-0 w-full h-full object-cover opacity-60">
+                <div class="container h-[678px] md:h-[1024px] lg:h-[768px] xl:h-[800px] 2xl:h-[1080px] pb-[50px] md:pb-20 lg:pb-[60px] xl:pb-[65px] 2xl:pb-[100px] gap-[10px] md:gap-2 lg:gap-[10px] xl:gap-[15px] 2xl:gap-5 text-[18px] flex flex-col justify-end items-center text-lightgrey">
+                    <h2 class="text-[28px] md:text-[35px] lg:text-[46px] xl:text-[51px] 2xl:text-[56px] font-bold leading-[125%] tracking-[.8px] uppercase">Голландия</h2>
+                    <h3 class="max-w-[226px] lg:max-w-[253px] xl:max-w-[336px] text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] text-center font-semibold leading-[150%] uppercase">коттеджный поселок by concept <sup>5</sup> </h3>
+                    <p class="text-grey-4 max-w-[251px] md:max-w-full text-center text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]">
+                        <a href="#" class="inline">Главная</a> / 
+                        <a href="#" class="inline">Архитектурные проекты</a> / 
+                        <a href="#" class="inline">Поселки и кварталы</a>
+                    </p>
+                </div>
+            </section>
+            <!-- Village home end -->
+
+            <!-- Services -->
+            <section class="services py-[70px] md:py-[75px] lg:py-20 xl:py-[85px] 2xl:py-[100px]">
+                <div class="container flex flex-col md:flex-row items-start md:items-stretch gap-[30px] 2xl:gap-12 text-start">
+                    <h2 class="w-full md:w-1/2 text-black text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] uppercase font-oswald font-bold leading-[125%] tracking-[.8px]">Архитектура <br class="hidden md:block"> в единой концепции</h2>
+                    <div class="w-[1px] h-auto bg-yellow shrink-0 hidden md:block"></div>
+                    <p class="w-full md:w-1/2 flex items-center text-sm md:text-[15px] lg:text-base xl:text-lg leading-[150%] text-[#000000]">Посёлок, в котором сочетаются такие факторы, как комфортная среда, приватность, эстетика архитектуры и природных ландшафтов. <br> Жизнь в уединении с природой недалеко от города Екатеринбург</p>
+                </div>
+            </section>
+            <!-- Services end -->
+            
+            <section class="flex flex-col-reverse 2xl:flex-col">
+                <div class="bg-[rgba(237,237,237,0.5)] py-[70px] md:py-[75px] lg:py-20 xl:py-[85px] 2xl:py-[100px] w-full">
+                    <div class="container flex flex-col items-center gap-[50px] xl:gap-10 2xl:gap-20">
+                        <ul class="flex justify-center flex-wrap items-stretch gap-5 text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                            <li class="w-full md:w-auto text-center">
+                                <b class="font-bold">Расположение:</b> д. Токарева, Россия
+                            </li>
+                            <li class="w-[1px] hidden md:block bg-yellow shrink-0"></li>
+                            <li class="w-full md:w-auto text-center">
+                                <b class="font-bold">Площадь:</b> 13,01
+                            </li>
+                            <li class="w-[1px] hidden md:block bg-yellow shrink-0"></li>
+                            <li class="w-full md:w-auto text-center">
+                                <b class="font-bold">Масштаб проекта:</b> 91 дом
+                            </li>
+                            <li class="w-[1px] hidden md:block bg-yellow shrink-0"></li>
+                            <li class="w-full md:w-auto text-center">
+                                <b class="font-bold">Год:</b> 2024
+                            </li>
+                        </ul>
+                        <ul class="text-[14px] md:text-[15px] 2xl:text-[18px] leading-[150%] font-bold uppercase flex flex-col md:flex-row items-center md:items-end gap-10 md:gap-[65px]">
+                            <li class="flex flex-col items-center text-center gap-2 md:gap-[19px] 2xl:gap-[15px]">
+                                <img src="./images/service-icon-1.svg" alt="">
+                                <h3>БЕЗОПАСНОСТЬ</h3>
+                            </li>
+                            <li class="flex flex-col items-center text-center gap-2 md:gap-[19px] 2xl:gap-[15px]">
+                                <img src="./images/service-icon-2.svg" alt="">
+                                <h3>СВЯЗЬ С ПРИРОДОЙ</h3>
+                            </li>
+                            <li class="flex flex-col items-center text-center gap-2 md:gap-[19px] 2xl:gap-[15px]">
+                                <img src="./images/service-icon-3.svg" alt="">
+                                <h3>КОМФОРТ</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="./images/services-card-1-1.png" alt="" class="w-full h-[169px] md:h-[320px] lg:h-[389px] xl:h-[519px] 2xl:h-[779px] object-cover">
+            </section>
+
+            <!-- Architectural -->
+            <section class="architectural">
+                <div class="container py-[70px] md:py-[75px] lg:py-20 xl:py-[85px] 2xl:py-[100px]">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-0 xl:gap-[5px] mb-[5px]">
+                        <div class="md:pr-[23px] lg:pr-[25px] xl:pr-[30px] 2xl:pr-[45px]">
+                            <h2 class="mb-5 md:mb-[30px] text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-oswald font-bold leading-[125%] tracking-[0.4px] uppercase">Архитектурный код</h2>
+                            <div class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] flex flex-col gap-[21px] md:gap-6 xl:gap-[27px] text-[#000]">
+                                <p>За основу архитектурного кода был взят Голландский минимализм.</p>
+                                <div>
+                                    <p>Основная философия стиля содержится в двух факторах:</p>
+                                    <p>-   Стремление к лаконичности</p>
+                                    <p>-   Согласованность архитектурного объекта с окружающей средой</p>
+                                </div>
+                                <p>Характерные черты стиля проявляются в максимальном применении фактур натуральных материалов таких, как натуральный камень,металл, стекло и дерево.</p>
+                            </div>
+                        </div>
+                        <img src="./images/architectural-card-1.png" alt="" class="h-[489px] xl:h-[460px] 2xl:h-[410px] object-cover">
+                    </div>
+                    <ul class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-[5px]">
+                        <li class="h-[177px]">
+                            <img src="./images/architectural-card-2.png" alt="" class="w-full h-full object-cover">
+                        </li>
+                        <li class="h-[177px]">
+                            <img src="./images/architectural-card-3.png" alt="" class="w-full h-full object-cover">
+                        </li>
+                        <li class="h-[177px] xl:col-span-2">
+                            <img src="./images/architectural-card-4.png" alt="" class="w-full h-full object-cover">
+                        </li>
+                    </ul>
+                </div>
+                <img src="./images/architectural-big-card.png" alt="" class="w-full h-[169px] md:h-[444px] lg:h-[576px] xl:h-[720px] 2xl:h-[1080px] object-cover">
+            </section>
+            <!-- Architectural end -->
+
+            <!-- Analysis -->
+            <section class="analysis">
+                <div class="container">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-[38px] lg:gap-[66px] xl:gap-[100px] pt-[70px] md:pt-[75px] lg:pt-20 xl:pt-[85px] 2xl:pt-[100px] pb-[50px] md:pb-[55px] lg:pb-[60px] xl:pb-[64px] 2xl:pb-[70px]">
+                        <div>
+                            <h2 class="text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-oswald leading-[125%] font-bold uppercase">Анализ</h2>
+                            <div class="w-[85px] md:w-[100px] lg:w-[110px] xl:w-[130px] 2xl:w-[150px] h-[6px] bg-yellow mt-[5px] md:mt-[11px] lg:mt-[13px] xl:mt-[14px] 2xl:mt-[15px]"></div>
+                        </div>
+                        <p class="text-[14px] md:text-[15px] lg:text-[17px] 2xl:text-[18px] text-[#000] leading-[150%]">Любой архитектурный и градостроительный проект всегда начинается с анализа территории. Это основополагающий этап проектирования, так как от контекста территории зависит расположение и ориентация домов на местности, то как будут пролегать транспортные и пешеходные пути. Контекст территории также влияет на выбор конструкций, материалов и архитектурное решение в целом.</p>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-[66px] xl:gap-x-[100px] gap-y-[50px] md:gap-y-[55px] lg:gap-y-[60px] xl:gap-y-[65px] 2xl:gap-y-[70px]">
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">ЛОКАЦИЯ</h3>
+                            <img src="./images/analysis-card-1.png" alt="" class="w-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">существующая инфраструктура</h3>
+                            <img src="./images/analysis-card-2.png" alt="" class="w-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">ориентация по сторонам света</h3>
+                            <img src="./images/analysis-card-3.png" alt="" class="w-full object-cover">
+                            <p class="text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000] mt-[50px]">Неотъемлемым фактором является ориентация участков и домов по сторонам света. Это влияет на затенённость участка и инсоляцию помещений.</p>
+                        </div>
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">аэрация</h3>
+                            <img src="./images/analysis-card-4.png" alt="" class="w-full object-cover">
+                            <p class="text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000] mt-[50px]">Зная направление преобладающих ветров можно создать благоприятную среду путём правильного расположения дома и других наземных построек на участке и рассадки деревьев, которые будут рассеивать ветровые потоки и не давать образовываться сквознякам.</p>
+                        </div>
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">акватория</h3>
+                            <img src="./images/analysis-card-5.png" alt="" class="w-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">озеленение</h3>
+                            <img src="./images/analysis-card-6.png" alt="" class="w-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">транспортные связи</h3>
+                            <img src="./images/analysis-card-7.png" alt="" class="w-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="mb-[15px] lg:mb-[17px] 2xl:mb-[25px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal color-[#000] leading-[150%] uppercase border-b border-yellow">анализ видовых акцентов</h3>
+                            <img src="./images/analysis-card-8.png" alt="" class="w-full object-cover">
+                        </div>
+                    </div>
+                    <p class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000] pt-[50px] md:pt-[55px] lg:pt-[60px] pb-[70px] md:pb-[75px] lg:pb-20 xl:py-20 2xl:py-[100px]">
+                        Проведённый анализ позволил лучше понять контексттерритории, выявить положительные и отрицательные стороны, которые, в свою очередь,были учтены в проектном решении. <br>
+                        Также рассчитано расстояние от площади 1905 года (г. Екатеринбург) до посёлка Голландия, которое составля­ ет 42км. Данное расстояние достаточно комфортное, его можно преодолеть в среднем за 50 минут. Этот фактор очень важен, так жители посёлкасмогут, проживая за городом, спокойноработать в мегаполисе.
+                    </p>
+                </div>
+                <img src="./images/analysis-big-card.png" alt="" class="w-full h-[169px] md:h-[444px] lg:h-[576px] xl:h-[720px] 2xl:h-[1080px] object-cover">
+            </section>
+            <!-- Analysis end -->
+
+            <!-- Balance -->
+            <section class="balance">
+                <div class="container">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-[50px] md:gap-[55px] lg:gap-[66px] xl:gap-[99px] py-[55px] md:py-[60px] xl:py-[65px] 2xl:py-[100px]">
+                        <div>
+                            <h2 class="mb-[30px] md:mb-[35px] lg:mb-10 2xl:mb-[62px] text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-bold leading-[126%] font-oswald uppercase">баланс <br> территории</h2>
+                            <div class="flex justify-center mb-[55px] md:mb-[60px] lg:mb-[65px] 2xl:mb-[75px]">
+                                <img src="./images/chart-card-1.png" alt="" class="h-[312px] md:h-[331px] lg:h-auto w-full max-w-[420px] object-contain">
+                            </div>
+                            <ul class="text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] gap-[10px] md:gap-[15px] 2xl:gap-[17px] flex flex-col font-semibold leading-[150%] text-[#000]">
+                                <li class="flex items-center gap-5">
+                                    <div class="w-[60px] h-5 shrink-0 bg-[#FEECD4]"></div>
+                                    <p>Участки с жилыми домами</p>
+                                </li>
+                                <li class="flex items-center gap-5">
+                                    <div class="w-[60px] h-5 shrink-0 bg-[#FFDFAA]"></div>
+                                    <p>Автомобильные проезды</p>
+                                </li>
+                                <li class="flex items-center gap-5">
+                                    <div class="w-[60px] h-5 shrink-0 bg-[#F2CA87]"></div>
+                                    <p>Озеленение</p>
+                                </li>
+                                <li class="flex items-center gap-5">
+                                    <div class="w-[60px] h-5 shrink-0 bg-[#E4BA80]"></div>
+                                    <p>Тротуары</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lg:pt-[70px] xl:pt-20 2xl:pt-[100px]">
+                            <h3 class="pb-[5px] lg:pb-[7px] 2xl:pb-[10px] mb-5 md:mb-[34px] lg:mb-[30px] xl:mb-[35px] 2xl:mb-10 text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[28px] font-normal leading-[150%] text-[#000] border-b border-yellow uppercase">комфортность жилого поселка</h3>
+                            <div class="flex items-stretch mb-[3px] text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] font-normal leading-[150%] text-[#000]">
+                                <div class="w-[84%]">84%</div>
+                                <div class="w-[14%]">14%</div>
+                                <div class="w-[2%] flex justify-end">2%</div>
+                            </div>
+                            <div class="h-[47px] 2xl:h-[52px] flex items-stretch mb-5 md:mb-[25px]">
+                                <div class="w-[84%] bg-[#FEECD4]"></div>
+                                <div class="w-[14%] bg-[#FFDFAA]"></div>
+                                <div class="w-[2%] bg-[#F2CA87]"></div>
+                            </div>
+                            <ul class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 mb-[30px] md:mb-[35px] lg:mb-[30px] xl:mb-10 gap-5 md:gap-[35px] lg:gap-x-10 gap-y-[10px] 2xl:gap-[43px] text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                                <li>
+                                    <div class="w-[62px] h-5 bg-[#FEECD4] mb-[9px]"></div>
+                                    <p>
+                                        <b class="block">Жилая функция</b>
+                                        91 жилой участок
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="w-[62px] h-5 bg-[#FFDFAA] mb-[9px]"></div>
+                                    <p>
+                                        <b class="block">Транспортная функция</b>
+                                        Проезжая часть, тротуары
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="w-[62px] h-5 bg-[#F2CA87] mb-[9px]"></div>
+                                    <p>
+                                        <b class="block">Общественная функция</b>
+                                        Въездная группа, ТБО
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                                Большим плюсом территории, на которой запроектирован жилой посёлок, являетсято, что она расположена на склоне холма, благодаря этому открываются восхититель­ ные пейзажи на реку Сысерть и горные хребты. <br>
+                                Территория жилого посёлка расположена <br>
+                                в непосредственной близости с хвойным лесом и живописным ручьём. Значительная часть участков посёлка сможет наслаждать­ ся прекрасными видами на ручей. А благо­ даря хвойному лесу, все жители посёлка будут дышать чистым свежим воздухом.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="pb-[70px] md:pb-[75px] lg:pb-20 xl:pb-[85px] 2xl:pb-[100px]">
+                        <h3 class="pb-[5px] lg:pb-[7px] 2xl:pb-[10px] mb-[50px] md:mb-[34px] lg:mb-10 xl:mb-[51px] 2xl:mb-[45px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase border-b border-yellow">тЕХНИКО-ЭКОНОМИЧЕСКИЕ ПОКАЗАТЕЛИ</h3>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[45px] md:gap-[35px] lg:gap-[66px] xl:gap-[100px]">
+                            <ul class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] font-normal leading-[122%] text-[#000] border border-grey-2">
+                                <li class="py-[10px] md:py-[15px] xl:py-[22px] px-[25px] 2xl:p-[25px] flex items-center justify-between font-bold border-b border-b-grey-2">
+                                    <p class="uppercase">Общая площадь участка поселка</p>
+                                    <p class="shrink-0">130 108 М2</p>
+                                </li>
+                                <li class="py-[10px] md:py-[15px] xl:py-[22px] px-[25px] 2xl:p-[25px] flex items-center justify-between border-b border-b-grey-2">
+                                    <p class="uppercase">Площадь земельных участков</p>
+                                    <p class="shrink-0">102 085 М2</p>
+                                </li>
+                                <li class="py-[10px] md:py-[15px] xl:py-[22px] px-[25px] 2xl:p-[25px] flex items-center justify-between border-b border-b-grey-2">
+                                    <p class="uppercase">Площадь зеленой зоны</p>
+                                    <p class="shrink-0">10 643 М2</p>
+                                </li>
+                                <li class="py-[10px] md:py-[15px] xl:py-[22px] px-[25px] 2xl:p-[25px] flex items-center justify-between border-b border-b-grey-2">
+                                    <p class="uppercase">Площадь транспортных связей</p>
+                                    <p class="shrink-0">14 810 М2</p>
+                                </li>
+                                <li class="py-[10px] md:py-[15px] xl:py-[22px] px-[25px] 2xl:p-[25px] flex items-center justify-between border-b border-b-grey-2">
+                                    <p class="uppercase">Площадь пешеходных связей</p>
+                                    <p class="shrink-0">2 520 М2</p>
+                                </li>
+                                <li class="py-[10px] md:py-[15px] xl:py-[22px] px-[25px] 2xl:p-[25px] flex items-center justify-between border-b border-b-grey-2">
+                                    <p class="uppercase">Площадь инженерных построек</p>
+                                    <p class="shrink-0">50 М2</p>
+                                </li>
+                                <li class="py-[10px] md:py-[15px] xl:py-[22px] px-[25px] 2xl:p-[25px] flex items-center justify-between">
+                                    <p class="uppercase">Колличество участков</p>
+                                    <p class="shrink-0">91</p>
+                                </li>
+                            </ul>
+                            <ul class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[122%] flex flex-col gap-[15px] xl:gap-[17px] 2xl:gap-[30px]">
+                                <li class="font-bold">Представлены 4 типа жилых домов</li>
+                                <li class="flex items-center gap-5 2xl:gap-10">
+                                    <p class="font-bold shrink-0">Тип 1</p>
+                                    <p>Двухэтажный дом на ровном рельефе</p>
+                                </li>
+                                <li class="flex items-center gap-5 2xl:gap-10">
+                                    <p class="font-bold shrink-0">Тип 2</p>
+                                    <p>Одноэтажный дом на умеренном рельефе</p>
+                                </li>
+                                <li class="flex items-center gap-5 2xl:gap-10">
+                                    <p class="font-bold shrink-0">Тип 3</p>
+                                    <p>Одноэтажный дом на активном рельефе</p>
+                                </li>
+                                <li class="flex items-center gap-5 2xl:gap-10">
+                                    <p class="font-bold shrink-0">Тип 4</p>
+                                    <p>Двухэтажный дом на рельефе с понижением</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/balance-big-card.png" alt="" class="w-full h-[169px] md:h-[444px] lg:h-[576px] xl:h-[720px] 2xl:h-[1080px] object-cover">
+            </section>
+            <!-- Balance end -->
+
+            <!-- Proposal -->
+            <section class="proposal">
+                <div class="container pt-[70px] md:pt-[75px] xl:pt-[85px] 2xl:pt-[100px]">
+                    <h2 class="mb-5 md:mb-[35px] lg:mb-10 xl:mb-[45px] 2xl:mb-[50px] text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-oswald font-bold leading-[125%] uppercase">Проектное <br> предложение</h2>
+                    <h3 class="pb-[5px] lg:pb-[7px] 2xl:pb-[10px] mb-[37px] md:mb-[50px] lg:mb-12 xl:mb-[50px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">вид сверху на поселок</h3>
+                </div>
+                <img src="./images/proposal-card-1.png" alt="" class="w-full h-[169px] md:h-[444px] lg:h-[576px] xl:h-[720px] 2xl:h-[1080px] object-cover">
+                <div class="container py-[75px] lg:py-20 xl:py-[85px] 2xl:py-[100px]">
+                    <h3 class="pb-[5px] lg:pb-[7px] 2xl:pb-[10px] mb-[67px] md:mb-[64px] lg:mb-[50px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">генплан поселка</h3>
+                    <img src="./images/proposal-card-2.png" class="w-full h-[264px] md:h-[592px] lg:h-[620px] xl:h-[826px] 2xl:h-[1092px] object-contain" alt="">
+                </div>
+                <img src="./images/proposal-card-3.png" alt="" class="w-full h-[169px] md:h-[444px] lg:h-[576px] xl:h-[720px] 2xl:h-[1080px] object-cover">
+            </section>
+            <!-- Proposal end -->
+
+            <!-- Houses -->
+            <section class="houses">
+                <div class="container pt-[75px] lg:pt-20 xl:pt-[85px] 2xl:pt-[100px] pb-[50px] md:pb-[55px] lg:pb-[60px] xl:pb-[65px] 2xl:pb-20">
+                    <h2 class="mb-[30px] md:mb-[35px] xl:mb-20 2xl:mb-[35px] text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-oswald font-bold leading-[125%] uppercase">Типология <br> домов</h2>
+                    <h3 class="pb-[5px] lg:pb-[7px] mb-5 xl:mb-10 2xl:mb-[50px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">с условно-ровным рельефом</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-[25px] lg:gap-[100px]">
+                        <div>
+                            <img src="./images/houses-card-1.png" alt="" class="w-full h-[130px] md:h-[171px] lg:h-auto object-contain">
+                        </div>
+                        <div class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                            <p>Двухэтажный жилой дом. На 1-ом  этаже располо­жены: кухня, столовая, гостиная, которые выполне­ны одним пространством с выходом на просторную террасу. На 2ом этаже размещены спальные комнаты, одна из которых включает в себя отдельный с/у и гардероб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[1920px] mx-auto flex lg:grid lg:grid-cols-2 gap-[5px] overflow-x-scroll lg:overflow-x-visible scrollbar-hidden">
+                    <img src="./images/houses-card-2-1.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-2-2.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-2-3.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-2-4.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                </div>
+                <div class="container py-[50px] md:py-[55px] lg:py-[60px] xl:py-[65px] 2xl:py-20">
+                    <div class="grid grid-cols-1 xl:grid-cols-2 gap-[25px] md:gap-[30px] lg:gap-[60px] xl:gap-[100px] pb-[30px] md:pb-[35px] xl:pb-10 2xl:pb-[100px]">
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">план 1-го этажа</h3>
+                            <img src="./images/house-card-3-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">план 1-го этажа</h3>
+                            <img src="./images/house-card-3-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                    </div>
+                    <h3 class="pb-[5px] lg:pb-[7px] mb-5 xl:mb-10 2xl:mb-[50px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">с условно-ровным рельефом</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-[25px] lg:gap-[100px]">
+                        <div>
+                            <img src="./images/houses-card-1.png" alt="" class="w-full h-[130px] md:h-[171px] lg:h-auto object-contain">
+                        </div>
+                        <div class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                            <p>Двухэтажный жилой дом. На 1-ом  этаже располо­жены: кухня, столовая, гостиная, которые выполне­ны одним пространством с выходом на просторную террасу. На 2ом этаже размещены спальные комнаты, одна из которых включает в себя отдельный с/у и гардероб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[1920px] mx-auto flex lg:grid lg:grid-cols-2 gap-[5px] overflow-x-scroll lg:overflow-x-visible scrollbar-hidden">
+                    <img src="./images/houses-card-4-1.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-4-2.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-4-3.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-4-4.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                </div>
+                <div class="container py-[50px] md:py-[55px] lg:py-[60px] xl:py-[65px] 2xl:py-20">
+                    <div class="grid grid-cols-1 xl:grid-cols-2 gap-[25px] md:gap-[30px] lg:gap-[60px] xl:gap-[100px] pb-[30px] md:pb-[35px] xl:pb-10 2xl:pb-[100px]">
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">Вариант №1</h3>
+                            <img src="./images/houses-card-5-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">вариант №2</h3>
+                            <img src="./images/houses-card-5-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                    </div>
+                    <h3 class="pb-[5px] lg:pb-[7px] mb-5 xl:mb-10 2xl:mb-[50px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">с условно-ровным рельефом</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-[25px] lg:gap-[100px]">
+                        <div>
+                            <img src="./images/houses-card-1.png" alt="" class="w-full h-[130px] md:h-[171px] lg:h-auto object-contain">
+                        </div>
+                        <div class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                            <p>Двухэтажный жилой дом. На 1-ом  этаже располо­жены: кухня, столовая, гостиная, которые выполне­ны одним пространством с выходом на просторную террасу. На 2ом этаже размещены спальные комнаты, одна из которых включает в себя отдельный с/у и гардероб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[1920px] mx-auto flex lg:grid lg:grid-cols-2 gap-[5px] overflow-x-scroll lg:overflow-x-visible scrollbar-hidden">
+                    <img src="./images/houses-card-6-1.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-6-2.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-6-3.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-6-4.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                </div>
+                <div class="container py-[50px] md:py-[55px] lg:py-[60px] xl:py-[65px] 2xl:py-20">
+                    <div class="grid grid-cols-1 xl:grid-cols-2 gap-[25px] md:gap-[30px] lg:gap-[60px] xl:gap-[100px] pb-[30px] md:pb-[35px] xl:pb-10 2xl:pb-[100px]">
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">Вариант №1</h3>
+                            <img src="./images/houses-card-7-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">вариант №2</h3>
+                            <img src="./images/houses-card-7-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                    </div>
+                    <h3 class="pb-[5px] lg:pb-[7px] mb-5 xl:mb-10 2xl:mb-[50px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">с условно-ровным рельефом</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-[25px] lg:gap-[100px]">
+                        <div>
+                            <img src="./images/houses-card-1.png" alt="" class="w-full h-[130px] md:h-[171px] lg:h-auto object-contain">
+                        </div>
+                        <div class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                            <p>Двухэтажный жилой дом. На 1-ом  этаже располо­жены: кухня, столовая, гостиная, которые выполне­ны одним пространством с выходом на просторную террасу. На 2ом этаже размещены спальные комнаты, одна из которых включает в себя отдельный с/у и гардероб.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[1920px] mx-auto flex lg:grid lg:grid-cols-2 gap-[5px] overflow-x-scroll lg:overflow-x-visible scrollbar-hidden">
+                    <img src="./images/houses-card-8-1.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-8-2.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-8-3.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                    <img src="./images/houses-card-8-4.png" alt="" class="h-[250px] md:h-[238px] lg:h-[301px] xl:h-[400px] 2xl:h-[500px] w-[424px] md:w-[404px] lg:w-full shrink-0 object-cover">
+                </div>
+                <div class="container pt-[50px] md:pt-[55px] pb-[75px] lg:py-[60px] xl:py-[65px] 2xl:pb-[100px] 2xl:pt-20">
+                    <div class="grid grid-cols-1 xl:grid-cols-2 gap-[25px] md:gap-[30px] lg:gap-[60px] xl:gap-[100px]">
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">Вариант №1</h3>
+                            <img src="./images/houses-card-7-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                        <div class="flex flex-col items-center gap-[5px] md:gap-[10px] lg:gap-[15px] xl:gap-5 2xl:gap-[25px]">
+                            <h3 class="text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal leading-[150%] text-[#000] uppercase">вариант №2</h3>
+                            <img src="./images/houses-card-7-1.png" alt="" class="w-full h-[240px] md:h-[500px] xl:h-auto object-contain">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Houses end -->
+
+            <!-- Team -->
+            <section class="team">
+                <div class="container pb-[75px] lg:pb-[60px] xl:pb-[65px] 2xl:pb-[100px]">
+                    <h2 class="mb-[50px] md:mb-[55px] lg:mb-[50px] xl:mb-[55px] 2xl:mb-[46px] text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] font-oswald font-bold leading-[125%] uppercase text-center">команда проекта</h2>
+                    <div class="grid grid-cols-1 xl:grid-cols-2 gap-[50px] md:gap-[55px] lg:gap-[60px] xl:gap-[100px] mb-[75px] lg:mb-[60px] xl:mb-[65px] 2xl:mb-[100px]">
+                        <div>
+                            <h3 class="mb-[25px] md:mb-[35px] 2xl:mb-[31px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">компания застройщик проекта</h3>
+                            <div class="w-full md:w-[450px] xl:w-auto mx-auto flex flex-col md:flex-row gap-[25px] md:gap-0 items-center justify-between">
+                                <img src="./images/team-logo-1.svg" alt="" class="h-[53px] 2xl:h-auto">
+                                <a href="#" class="2xl:px-[49px] py-[13px] w-[164px] 2xl:w-auto text-center text-[18px] font-rubik font-normal leading-6 text-[#000] bg-[rgba(255,201,0,0.5)]">concept5.ru</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="mb-[25px] md:mb-[35px] 2xl:mb-[47px] pb-[5px] lg:pb-[7px] 2xl:pb-[10px] text-[18px] md:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-normal border-b border-yellow uppercase">компания застройщик проекта</h3>
+                            <div class="w-full md:w-[450px] xl:w-auto mx-auto flex flex-col md:flex-row gap-[25px] md:gap-0 items-center justify-between">
+                                <img src="./images/team-logo-2.svg" alt="" class="h-[24px] xl:h-[23px] 2xl:h-auto">
+                                <a href="#" class="2xl:px-[49px] py-[13px] w-[164px] 2xl:w-auto text-center text-[18px] font-rubik font-normal leading-6 text-[#000] bg-[rgba(255,201,0,0.5)]">r-ural.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] leading-[150%] text-[#000]">
+                        <p>Коттеджный поселок «Голландия» - уникальное сочетание природных Уральских рельефов и архитектуры, кото­рый изящно разместился на южном склоне живописной реки Сысерть.</p>
+                        <p>Данный проект значимый по масштабу и уровню для собственника компании застройщика «Concept 5» Бельченко Максима. Чтобы создать уникальный продукт, была привлечена компания партнер - студия архитекту­ры и дизайна «Разработки Урала».</p>
+                        <p>Вдохновившись местностью, был разработан архитектурный код, в основу которого лег стиль Голландский минимализм, как с отдельными элементами, так и полноценными строениями в стилистике «Хай-тек». Много­летний опыт в сфере девелопмента позволил применить все знания при формировании концепции инфра­структуры и технологии строительства.</p>
+                    </div>
+                </div>
+                <img src="./images/team-big-card.png" alt="" class="w-full h-[169px] md:h-[444px] lg:h-[576px] xl:h-[720px] 2xl:h-[1080px] object-cover">
+            </section>
+            <!-- Team end -->
+
+            <!-- Contact -->
+            <section class="contact">
+                <div class="container flex items-stretch flex-col lg:flex-row gap-[35px] lg:gap-0 py-[70px] md:py-[75px] lg:py-0">
+                    <div class="w-full lg:w-1/2 lg:border-r border-grey-2 flex flex-col justify-center items-center lg:items-start text-center lg:text-start lg:pr-[51px] xl:pr-[90px] 2xl:pr-[102px]">
+                        <h2 class="text-dark-grey text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[36px] font-medium font-oswald leading-[125%] tracking-[0.8px] uppercase mb-[30px] md:mb-[25px] lg:mb-7 xl:mb-[25px]">Понравился проект?</h2>
+                        <p class="text-black text-[14px] md:text-[16px] 2xl:text-xl leading-[122%]">Сделайте первый шаг к вашей мечте, свяжитесь с нашим специалистом или оставьте ваши координаты для обратной связи.</p>
+                    </div>
+                    <div class="w-full lg:w-1/2 flex items-center lg:py-20 2xl:py-[127px] lg:pl-[50px] xl:px-[52px] 2xl:pl-[112px]">
+                        <div class="max-w-full 2xl:max-w-[541px] w-full flex flex-col gap-[15px] lg:gap-[18px] xl:gap-5 2xl:gap-[25px]">
+                            <input type="text" placeholder="Ваше имя" class="form-inp">
+                            <input type="tel" placeholder="+7 (___) ___ __ __" class="form-inp">
+                            <button class="main-btn">Обсудить задачу с экспертом</button>
+                            <p class="text-grey-3 text-xs 2xl:text-sm leading-[122.7%] 2xl:max-w-[391px] w-full">Нажимая кнопку, вы автоматически соглашаетесь с <a href="#" class="inline underline">политикой конфиденциальности</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact end -->
+
+            <!-- Direction -->
+            <section class="direction bg-lightgrey border-y border-grey-2">
+                <div class="container grid grid-cols-1 lg:grid-cols-2 gap-[30px] md:gap-[35px] lg:gap-0 py-[70px] md:py-[75px] lg:py-0">
+                    <div class="lg:border-r border-grey-2 flex flex-col items-center md:items-start justify-center">
+                        <h2 class="text-[26px] md:text-[31px] lg:text-[36px] xl:text-[41px] 2xl:text-[46px] text-center md:text-start font-light uppercase font-oswald leading-[125%]">
+                            Наши
+                            <b class="block font-bold">Направления</b>
+                        </h2>
+                        <div class="w-[130px] md:w-[140px] 2xl:w-[150px] h-[6px] bg-yellow mt-[7px] md:mt-[11px] lg:mt-0 xl:mt-2 2xl:mt-[10px]"></div>
+                    </div>
+                    <div class="lg:py-20 xl:py-[73px] 2xl:py-[100px] lg:pl-[50px] xl:px-[52px] 2xl:px-[111px] flex flex-col gap-[15px] lg:gap-5 2xl:gap-[25px]">
+                        <p class="text-[16px] 2xl:text-[20px] font-normal leading-[122%] text-[#4A4A4A] text-center 2xl:text-start">Возможно вам будут интересны <br class="hidden lg:block 2xl:hidden"> другие услуги нашей компании:</p>
+                        <a href="#" class="main-btn">Дизайн интерьеров</a>
+                        <a href="#" class="main-btn">Строительство домов</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Direction end -->
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="border-y border-dark-grey bg-[#201E23] py-[70px] md:py-0">
+            <div class="container flex items-stretch flex-col md:flex-row gap-10 md:gap-0">
+                <div class="w-full md:w-1/2 md:border-r border-dark-grey flex flex-col justify-center items-center md:items-start text-center md:text-start md:py-[75px] lg:py-20 2xl:py-[100px] md:pr-[72px] lg:pr-[102px]">
+                    <div class="w-full flex flex-col 2xl:flex-row items-center md:items-start 2xl:items-center justify-between gap-[25px] md:gap-[30px] 2xl:gap-0 mb-[30px] md:mb-[45px]">
+                        <div class="">
+                            <h2 class="text-lightgrey uppercase font-oswald text-[26px] md:text-[36px] xl:text-[46px] font-bold leading-[125%] tracking-[0.8px]">контакты</h2>
+                            <div class="w-[100px] md:w-[150px] h-[6px] bg-yellow mt-[10px]"></div>
+                        </div>
+                        <a href="/">
+                            <img src="./images/logo.svg" alt="" class="h-[22px]">
+                        </a>
+                    </div>
+                    <div class="text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg leading-[150%] text-grey-3">
+                        <div class="w-full flex flex-col 2xl:flex-row 2xl:items-center justify-between gap-[10px] 2xl:gap-0 mb-[30px]">
+                            <p class="text-grey-4">620027 Екатеринбург, <br> ул. Азина, д. 22/4, оф. 1.37</p>
+                            <div class="flex flex-col">
+                                <a href="tel:+7 (343) 38-48-100">+7 (343) 38-48-100</a>
+                                <a href="tel:+7 (953) 822-30-44">+7 (953) 822-30-44</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col 2xl:flex-row 2xl:items-start justify-between gap-[10px] 2xl:gap-0">
+                            <p>Время работы: ПН-ПТ 09:00 - 20:00 <br>СБ, ВС - выходной</p>
+                            <a href="mailto:info@r-ural.com" target="_blank">info@r-ural.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center md:py-[75px] lg:py-20 2xl:py-[100px] md:pl-[86px] lg:pl-[112px] text-center md:text-start">
+                    <div class="w-full max-w-[541px] flex flex-col gap-[25px]">
+                        <div class="w-full flex flex-col xl:flex-row gap-[25px] text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg xl:leading-[27px] text-grey-3">
+                            <div class="w-full">
+                                <p class="">Для заказчиков</p>
+                                <a href="mailto:info@r-ural.com" target="_blank" class="text-grey-4 font-medium">info@r-ural.com</a>
+                            </div>
+                            <div class="w-full">
+                                <p class="">Стать партнером</p>
+                                <a href="mailto:info@r-ural.com" target="_blank" class="text-grey-4 font-medium">info@r-ural.com</a>
+                            </div>
+                        </div>
+                        <p class="text-grey-3 text-[14px] md:text-[15px] lg:text-[16px] xl:text-lg leading-[150%]">Проектирование, строительство частных домов, котеджей, бань и прочих объектов загородной недвижимости в Екатеринбурге и Свердловской области.</p>
+                        <ul class="flex items-start justify-center md:justify-end gap-5">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-1.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-2.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-3.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/network-icon-4.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+    </div>
+
+
+    <!-- iMask JS -->
+    <script src="./js/imask.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- JS file -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
