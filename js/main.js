@@ -75,3 +75,49 @@ if (phoneInp.length) {
         })
     });
 }
+
+const mainSelects = document.querySelectorAll('.main-select');
+
+if (mainSelects.length) {
+    mainSelects.forEach(el => {
+        const inp = el.querySelector('input');
+        const text = el.querySelector('.main-select__btn span');
+        const list = el.querySelectorAll('ul li');
+
+        if (list.length) {
+            list.forEach(btn => {
+                btn.onclick = () => {
+                    inp.value = btn.textContent;
+                    text.textContent = btn.textContent;
+                }
+            })
+        }
+    })
+}
+
+const formRanges = document.querySelectorAll('.form-range');
+
+if (formRanges.length) {
+    formRanges.forEach(range => {
+        let rangeS = range.querySelectorAll("input[type=range]"),
+            line = range.querySelector('.line'),
+            min = parseFloat(rangeS[0].min),
+            max = parseFloat(rangeS[0].max);
+
+        const handleRange = () => {
+            let slide1 = parseFloat(rangeS[0].value),
+                slide2 = parseFloat(rangeS[1].value);
+        
+            if (slide1 > slide2) [slide1, slide2] = [slide2, slide1];
+        
+            line.style.left = ( 100 * ( slide1 - min ) ) / max + '%';
+            line.style.width = 100 * (slide2 - slide1) / max + '%';
+        };
+
+        handleRange();
+
+        rangeS.forEach(el => {
+            el.oninput = handleRange;
+        });
+    })
+}
