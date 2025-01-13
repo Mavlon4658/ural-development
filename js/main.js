@@ -121,3 +121,39 @@ if (formRanges.length) {
         });
     })
 }
+
+const stepCards = document.querySelectorAll('.step-card');
+
+if (stepCards.length) {
+    stepCards.forEach(card => {
+        const btn = card.querySelector('button.main-btn');
+        const list = card.querySelectorAll('ul li');
+
+        if (list.length) {
+            list.forEach((el, elID) => {
+                if (elID > 3) {
+                    el.style.display = 'none';
+                }
+            })
+
+            btn.onclick = () => {
+                list.forEach(el => {
+                    el.style.display = 'flex';
+                })
+
+                btn.style.display = 'none';
+            }
+        }
+    })
+} 
+
+const projectExample = new Swiper('.project-example .swiper', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    allowTouchMove: false,
+    navigation: {
+        nextEl: '.project-example .next-btn',
+        prevEl: '.project-example .prev-btn',
+    }
+})
